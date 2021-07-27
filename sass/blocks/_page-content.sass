@@ -1,0 +1,59 @@
+.page-content
+  display: grid
+  grid-template-columns: 9fr 3fr
+  grid-column-gap: 30px
+.card
+  max-width: 264px
+  margin-bottom: 20px
+  margin-right: 20px
+  &:nth-child(3n)
+    margin-right: 0
+  &s
+    display: flex
+    flex-wrap: wrap
+  &-image
+    border-radius: 10px
+  &-header
+    display: flex
+    justify-content: space-between
+    // выравняем по-центру оба элемента, чтобы картинка like не сплющивалась
+    align-items: center
+  &-link
+    text-decoration: none
+  &-title
+    font-size: 16px
+    line-height: 19px
+    color: $card-title-color
+    margin-top: 12px
+    margin-bottom: 5px
+  &-price
+    display: block
+    // ставим блок, потому что не применяется отсуп 10 пкс
+    margin-bottom: 10px
+  &-text 
+    font-size: 14px
+    line-height: 16px
+    color: $card-text
+    margin-bottom: 4px
+    margin-top: 0
+.like
+  background-color: $like-background
+  border: none
+  cursor: pointer
+  margin-left: 15px
+.service
+  margin-bottom: 25px
+  &-title
+    font-weight: bold
+    font-size: 14px
+    line-height: 16px
+    margin-top: 7px
+    margin-bottom: 5px
+  &-text
+    font-size: 14px
+    line-height: 16px
+    max-width: 217px
+.page-title 
+  font-size: 18px
+  line-height: 21px
+  margin-bottom: 25px

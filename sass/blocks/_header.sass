@@ -1,5 +1,7 @@
 .header
   padding-top: 30px
+  padding-bottom: 30px
+  margin-bottom: 12px
 .navbar 
   display: flex
   justify-content: space-between
@@ -29,33 +31,33 @@
   text-decoration: none
   display: inline-block
   padding: 10px 15px
-  coursor: pointer
+  cursor: pointer
   &-link
     color: inherit
   &-primary
-    color: #FFFFFF
-    background: #256EEB
+    color: $button-text
+    background: $primary
     border-radius: 5px
 .search
   &-panel 
     height: 50px
-    background: #256EEB
+    background: $primary
     border-radius: 5px
     padding: 3px
     display: flex
   &-input
     // растягиваем поле ввода на все свободное место на панели
     flex-grow: 1
-    background: #FFFFFF
+    background: $input-backgroud
     border-radius: 5px
     // отключаем обводку инпута по дефолту
     border: none
     padding-left: 22px
     padding-right: 22px
   &-button
-    background: #256EEB
+    background: $primary
     border: none
-    color: #FFFFFF
+    color: $button-text
     padding-right: 20px
     padding-left: 17px
     display: flex

@@ -16,6 +16,8 @@ body {
 
 .header {
   padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 12px;
 }
 
 .navbar {
@@ -62,7 +64,7 @@ body {
   text-decoration: none;
   display: inline-block;
   padding: 10px 15px;
-  coursor: pointer;
+  cursor: pointer;
 }
 
 .button-link {
@@ -112,5 +114,103 @@ body {
 
 .search-button__text {
   margin-left: 5px;
+}
+
+.page-content {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 9fr 3fr;
+      grid-template-columns: 9fr 3fr;
+  grid-column-gap: 30px;
+}
+
+.card {
+  max-width: 264px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.card:nth-child(3n) {
+  margin-right: 0;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.card-image {
+  border-radius: 10px;
+}
+
+.card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card-link {
+  text-decoration: none;
+}
+
+.card-title {
+  font-size: 16px;
+  line-height: 19px;
+  color: #256EEB;
+  margin-top: 12px;
+  margin-bottom: 5px;
+}
+
+.card-price {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 14px;
+  line-height: 16px;
+  color: #C4C4C4;
+  margin-bottom: 4px;
+  margin-top: 0;
+}
+
+.like {
+  background-color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.service {
+  margin-bottom: 25px;
+}
+
+.service-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  margin-top: 7px;
+  margin-bottom: 5px;
+}
+
+.service-text {
+  font-size: 14px;
+  line-height: 16px;
+  max-width: 217px;
+}
+
+.page-title {
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 25px;
 }
 /*# sourceMappingURL=style.css.map */
