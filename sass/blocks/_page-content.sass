@@ -31,7 +31,6 @@
     // ставим блок, потому что не применяется отсуп 10 пкс
     margin-bottom: 10px
   &-text 
-    font-size: 14px
     line-height: 16px
     color: $card-text
     margin-bottom: 4px
@@ -45,15 +44,33 @@
   margin-bottom: 25px
   &-title
     font-weight: bold
-    font-size: 14px
     line-height: 16px
     margin-top: 7px
     margin-bottom: 5px
   &-text
-    font-size: 14px
     line-height: 16px
     max-width: 217px
 .page-title 
   font-size: 18px
   line-height: 21px
   margin-bottom: 25px
+.footer
+  &-menu
+    margin: 0
+    padding: 0
+    list-style: none
+    margin-bottom: 16px
+  &-text
+    // делаем инлайновыми, чтобы заработал отступ
+    display: inline-block
+    line-height: 16px
+    color: $footer-text
+    margin-bottom: 5px
+  &-link
+    // делаем инлайновыми, чтобы заработал отступ
+    display: inline-block
+    color: inherit
+    text-decoration: none
+    margin-bottom: 5px
+
+  

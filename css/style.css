@@ -176,7 +176,6 @@ body {
 }
 
 .card-text {
-  font-size: 14px;
   line-height: 16px;
   color: #C4C4C4;
   margin-bottom: 4px;
@@ -196,14 +195,12 @@ body {
 
 .service-title {
   font-weight: bold;
-  font-size: 14px;
   line-height: 16px;
   margin-top: 7px;
   margin-bottom: 5px;
 }
 
 .service-text {
-  font-size: 14px;
   line-height: 16px;
   max-width: 217px;
 }
@@ -212,5 +209,26 @@ body {
   font-size: 18px;
   line-height: 21px;
   margin-bottom: 25px;
+}
+
+.footer-menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 16px;
+}
+
+.footer-text {
+  display: inline-block;
+  line-height: 16px;
+  color: #C4C4C4;
+  margin-bottom: 5px;
+}
+
+.footer-link {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=style.css.map */
